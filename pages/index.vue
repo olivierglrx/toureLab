@@ -1,5 +1,5 @@
 <template>
-  <Icon name="mdi:hamburger-plus" color="red" />
+  <!-- <Icon name="mdi:hamburger-plus" color="red" /> -->
   <TourelabNavbar class="sticky high" />
 
   <ToureHeader />
