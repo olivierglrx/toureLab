@@ -1,5 +1,5 @@
 <template>
-  
+  <Icon name="mdi:hamburger-plus" color="red" />
   <TourelabNavbar class="sticky high" />
 
   <ToureHeader />
@@ -14,8 +14,9 @@
   <ToureNewsSection/>
   <div  v-if="backgroundImg4" class="image-transition" :style="{ 'background-image': `url(${backgroundImg4})` }"/>
   <ToureFundingSection/>
-</template>
+  
 
+</template>
 <style scoped>
 .high {
   z-index: 10000;
