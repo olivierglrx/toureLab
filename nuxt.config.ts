@@ -1,9 +1,12 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  modules: [
+    'nuxt-icon',
+    '@nuxtjs/tailwindcss'
+  ],
   components: [
     {
-      path: '~/components', // will get any components nested in let's say /components/test too
+      path: '~/components', 
       pathPrefix: false,
     },
   ],
@@ -18,3 +21,4 @@ export default defineNuxtConfig({
   },
 
 })
+
